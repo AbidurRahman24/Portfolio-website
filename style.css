@@ -1,0 +1,45 @@
+ul{
+    background-color: darkblue;
+}
+Nav ul{
+    list-style: none;
+    display: flex;
+}
+
+Nav ul{
+    background-color: darkblue;
+    position: relative;
+    justify-content: flex-end;
+}
+Nav ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.9375rem 1.25rem;
+}
+ul li:hover{
+    background: rgb(124, 109, 109);
+}
+ul .dropdown{
+    display:none;
+    position: absolute;
+    top: 100%;
+
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+ul .dropdown__graphic__design{
+    display:none;
+    position: absolute;
+    left: 100%;
+    top:10px;
+    margin:0;
+    padding: 0;
+}
+ul li:hover ul.dropdown__graphic__design{
+    display: block;
+
+}
