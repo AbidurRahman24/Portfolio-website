@@ -1,3 +1,12 @@
+/* common css */
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* common css */
 ul{
     background-color: darkblue;
 }
@@ -42,4 +51,29 @@ ul .dropdown__graphic__design{
 ul li:hover ul.dropdown__graphic__design{
     display: block;
 
+}
+/* Nav end */
+/* START HEADER SECTION */
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.hero{
+    display:relative;
+    width: 100%;
+}
+.content-description{
+    display:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+    line-height: 1.5;
+}
+.hero-section-img img{
+    width: 60%;
+}
+span{
+    color: orange
 }
