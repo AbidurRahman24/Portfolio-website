@@ -58,8 +58,6 @@ ul li:hover ul.dropdown__graphic__design{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 20px;
-}
-.hero{
     display:relative;
     width: 100%;
 }
@@ -99,3 +97,55 @@ span{
 }
 /* HERO SECTION END */
 /* ABOUT SECTION START */
+.about{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    display:relative;
+    width: 100%;
+}
+.about-image img{
+    display:flex;
+    width:60%;
+    margin: 0 auto;
+}
+.about-content{
+    display:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+    line-height: 1.5;
+    width:60%
+}
+/* End about section */
+/* Start Project section */
+.project-title{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.project{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 50px 0;
+}
+.card{
+    display:flex;
+    padding:10px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-image img{
+    width: 200px;
+}
+.card-content{
+    width:200px
+}
+#card-1{
+    position: relative;
+  left: 0px;
+}
